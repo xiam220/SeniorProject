@@ -30,6 +30,7 @@ sub sum() {
 my @array;
 push(@array, 6);
 push(@array, 11);
+# \@ will return a reference (or pointer) 
 my $sum = &arraySum(\@array);
 print "\nSum is $sum\n";
 sub arraySum() {
